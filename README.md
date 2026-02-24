@@ -1,5 +1,12 @@
 # Computer-Networking 
 
+### How internet works?
+#### What Happens When You Open a Website
+1. You Type a Website Name
+- ```www.google.com```
+But computers do not understand names, they understand IP addresses
+
+
 ### ✅ IP Address
 
 - A unique identifier for each device on a network.
