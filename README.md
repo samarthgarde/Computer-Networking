@@ -11,6 +11,7 @@ But computers do not understand names, they understand IP addresses
 5. Data Travels in Small Packets.Internet breaks data into small packets.
 6. Server Sends the Website Back
 **One Line Flow**
+  
 ```Browser → DNS → ISP → Internet Routers → Server → Response Back → Browser Shows Website```
 
 ---
