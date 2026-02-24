@@ -1,12 +1,12 @@
 # Computer-Networking 
 
-### How internet works?
+### ✅ How internet works?
 #### What Happens When You Open a Website
 1. You Type a Website Name
 - ```www.google.com```
 But computers do not understand names, they understand IP addresses
 2. So the system needs to find the IP first.
-3. DNS Translates the name into ip address
+3. DNS Translates the name
 4. Your Request Travels Through the Internet
 5. Data Travels in Small Packets.Internet breaks data into small packets.
 6. Server Sends the Website Back
