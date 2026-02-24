@@ -6,8 +6,8 @@
 - ```www.google.com```
 But computers do not understand names, they understand IP addresses
 2. So the system needs to find the IP first.
-3. DNS Translates the Name
-4.Your Request Travels Through the Internet
+3. DNS Translates the name into ip address
+4. Your Request Travels Through the Internet
 5. Data Travels in Small Packets.Internet breaks data into small packets.
 6. Server Sends the Website Back
 **One Line Flow**
