@@ -33,11 +33,18 @@ But computers do not understand names, they understand IP addresses
 ---
 
 ### ✅ Port Numbers
-- Logical endpoints for network services.
+- a communication endpoint used by a specific service on a computer.
 - Example:
+  - `21` → FTP
   - `22` → SSH
   - `80` → HTTP
+  - `8080` → Alternate HTTP
+  - `53` → DNS
   - `443` → HTTPS
+  - `1443`→ Microsoft SQL Serve
+  - `3306`→ MySQL/MariaDB
+  - `5432` → PostgreSQL
+  -  
 - Format: `IP:Port` (e.g., `192.168.0.1:22`)
 
 ---
