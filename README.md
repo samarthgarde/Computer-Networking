@@ -16,6 +16,22 @@ But computers do not understand names, they understand IP addresses
 
 ---
 
+### Physical Cables (Wired Communication
+#### Ethernet cable:
+This is the most common internet cable in homes and offices.
+
+Used in:
+
+- LAN networks
+- Office networking
+
+Speed:
+
+-Up to 1 Gbps (Cat5e)
+- 10 Gbps (Cat6/7)
+  
+
+
 ### ✅ IP Address
 
 - A unique identifier for each device on a network.
