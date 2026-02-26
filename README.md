@@ -27,7 +27,7 @@ Used in:
 
 Speed:
 
--Up to 1 Gbps (Cat5e)
+- Up to 1 Gbps (Cat5e)
 - 10 Gbps (Cat6/7)
 
 👉 Used between:
@@ -57,6 +57,86 @@ Example:
 Internet between India and US travels through undersea optical fiber cables.
 
 This is how the world connects.
+
+---
+
+### 2️⃣ Wireless Communication
+Data travels using radio waves.
+
+#### 🔹 1. Bluetooth
+
+Used for:
+
+- Earphone
+- Keyboard
+- Mouse
+- Small data transfer
+
+#### 🔹 2. Wi-Fi
+
+Used for:
+
+- Home internet
+- Office internet
+
+Flow:
+Internet cable → Router → WiFi signal → Phone/Laptop
+
+---
+
+### Modem:
+Device that connects your home network to the Internet.
+
+---
+
+### Router:
+A router is a device that connects multiple devices to the internet and sends data to the correct destination.
+
+---
+
+### Topologies
+Network topology means how computers and devices are connected in a network.
+It shows the structure or layout of the network. 🖧
+
+Example: How PCs, switches, and routers are connected.
+
+#### 1️⃣ Bus Topology
+All devices connect to one main cable.
+```
+PC ── PC ── PC ── PC
+        │
+     Main Cable
+```
+
+#### 2️⃣ Star Topology ⭐
+All devices connect to one central device (switch or hub)
+```
+        PC
+         |
+PC ── Switch/Hub ── PC
+         |
+        PC
+```
+
+#### 3️⃣ Ring Topology
+Devices form a circle.
+```
+PC ── PC ── PC
+|            |
+PC ── PC ── PC
+```
+
+#### 4️⃣ Mesh Topology
+Every device connects to many other devices.
+```
+   PC────PC
+   │ \  / │
+   │  \/  │
+   │  /\  │
+   PC────PC
+```
+
+
 
 ### ✅ IP Address
 
@@ -122,6 +202,49 @@ netstat -tulnp   # Show listening ports and services
 ---
 
 ## OSI Model - 7 Layers
+it is a 7 layer model that explains how the data travels to one computer to another computer
+
+### Why OSI model is important
+when you send data
+```
+Your commputer → Internet → Server
+```
+Many things happens step by step
+
+I will explain the OSI Workflow like a real story so you can clearly imagine it
+
+#### 🎯 Situation
+
+You open:
+```
+www.google.com
+```
+in your browser.
+
+#### 📦 Think Like Sending a Courier Parcel
+
+You want to send a parcel to your friend.
+
+There are steps:
+
+- Write message
+- Pack it
+- Add address
+- Courier delivers
+
+OSI works exactly like this.
+
+#### 7️⃣ Application Layer
+
+You type in browser.
+
+Example:
+Using
+HTTP
+
+This layer says:
+
+“User wants to open Google.”
 
 | Layer | Layer Name   | Function                                 | Example Protocols                                | Devices Used           | Real-life Example                       |
 |-------|--------------|------------------------------------------|-------------------------------------------------|------------------------|------------------------------------------|
