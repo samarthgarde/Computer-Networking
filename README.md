@@ -136,7 +136,7 @@ Every device connects to many other devices.
    PC────PC
 ```
 
-
+---
 
 ### ✅ IP Address
 
@@ -245,6 +245,66 @@ HTTP
 This layer says:
 
 “User wants to open Google.”
+
+#### 6️⃣ Presentation Layer
+
+This layer says:
+
+“Let me encrypt it for security.”
+
+If website uses
+HTTPS
+data gets encrypted here.
+
+#### 5️⃣ Session Layer
+
+This layer says:
+
+“Let’s start a connection with Google server.”
+
+It manages login/session.
+
+#### 4️⃣ Transport Layer
+
+This layer:
+
+- Adds port number
+- Makes sure data is delivered properly
+
+Uses:
+Transmission Control Protocol
+
+Example:
+Google uses port 443.
+
+#### 3️⃣ Network Layer
+
+This layer:
+
+- Adds IP address
+- Decides route
+
+Uses:
+Internet Protocol
+
+#### 2️⃣ Data Link Layer
+This layer:
+
+- Adds MAC address
+- Sends inside local network
+
+Switch works here.
+
+#### 1️⃣ Physical Layer
+
+This layer:
+
+- Converts data into signals
+- Sends through cable or WiFi
+
+Now data travels physically.
+
+---
 
 | Layer | Layer Name   | Function                                 | Example Protocols                                | Devices Used           | Real-life Example                       |
 |-------|--------------|------------------------------------------|-------------------------------------------------|------------------------|------------------------------------------|
