@@ -17,7 +17,7 @@ But computers do not understand names, they understand IP addresses
 ---
 
 ### Physical Cables (Wired Communication
-#### Ethernet cable:
+#### 1. 🔹 Ethernet cable:
 This is the most common internet cable in homes and offices.
 
 Used in:
@@ -29,8 +29,34 @@ Speed:
 
 -Up to 1 Gbps (Cat5e)
 - 10 Gbps (Cat6/7)
-  
 
+👉 Used between:
+Computer ↔ Router
+Switch ↔ Server
+
+#### 🔹 2. Coaxial Cable
+Thicker than Ethernet cable.
+
+Used for:
+
+- Cable TV
+- Cable broadband
+
+#### 🔹 3. Optical Fibre Cable
+This is the fastest internet cable.
+Instead of electricity
+
+Used in:
+
+- Undersea internet cables 🌊
+- Data centers
+- 5G backhaul
+- ISPs backbone network
+
+Example:
+Internet between India and US travels through undersea optical fiber cables.
+
+This is how the world connects.
 
 ### ✅ IP Address
 
